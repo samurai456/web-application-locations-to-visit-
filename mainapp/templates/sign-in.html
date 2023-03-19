@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/sign-in.css">
+    </head>
+    <body>
+        <form class="container" method="post">
+            {% csrf_token %}
+            <input class="username" placeholder="username" name="username">
+            <input class="password" type="password" placeholder="password" name="password">
+            <button class="button">SIGN-IN</button>
+        </form>
+    </body>
+</html>

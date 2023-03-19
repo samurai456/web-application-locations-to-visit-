@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/addlocations.css">
+        <script src="/static/addlocations.js"></script>
+    </head>
+    <body>
+        <form class="form" enctype="multipart/form-data" method="post">
+            <div class="state">{{ state }}</div>
+            {% csrf_token %}
+            <div class="load-file">
+                <input class="input-file" type="file" name="previewfile">
+                <div class="note-main-img">Main img</div>
+            </div>
+            <button class="add-input-file" onclick="return false">Add input file</button>
+            <input class="location-title" type="text" placeholder="title" name="title">
+            <select class="region" name="region">
+                <option value="Tashkent">Tashkent</option>
+                <option value="Samarkand">Samarkand</option>
+                <option value="Bukhara">Bukhara</option>
+            </select>
+            <input class="url-input" tyle="text" placeholder="url to google maps" name="url">
+            <textarea class="info-textarea" placeholder="information" name="text"></textarea>
+            <input class="submit-button" type="submit" value="create content">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+body{
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+.loading{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

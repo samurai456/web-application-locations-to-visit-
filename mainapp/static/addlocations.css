@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin: 40px;
+}
+.load-file{
+    margin-bottom: 20px;
+    border: 3px solid grey;
+    font-size: 30px;
+    display: flex;
+}
+.input-file{
+    font-size: 30px;
+}
+.note-main-img,
+.remove-input{
+    font-size: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 2px 20px;
+}
+.note-main-img{
+    background-color: black;
+}
+.state,
+.add-input-file,
+.location-title,
+.region,
+.url-input,
+.info-textarea,
+.submit-button{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.location-title,
+.url-input,
+.info-textarea{
+    width: 100%;
+}
+.info-textarea{
+    height: 200px;
+}
