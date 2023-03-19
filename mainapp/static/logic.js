@@ -215,7 +215,7 @@ function forMobileDevises(){
 
     for (let elem of elems){
         elem.ontouchstart = function(){
-            this.dispatchEvent(new Event('click'));
+            this.dispatchEvent(new Event('click', {bubbles: true}));
             return false;
         };
     }
