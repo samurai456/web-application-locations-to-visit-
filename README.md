@@ -1,6 +1,6 @@
 # web-application-locations-to-visit-
 
-This web application helps you to find stunning places in Uzbekistan
+This web application helps you to find stunning places in Uzbekistan.
 Check it in 
 https://ninjasamurai.pythonanywhere.com/
 
